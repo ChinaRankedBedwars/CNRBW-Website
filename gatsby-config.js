@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Soul Extract',
-        short_name: 'Soul Extract',
+        name: '中国排位起床社区',
+        short_name: 'CNRBW',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#000000',

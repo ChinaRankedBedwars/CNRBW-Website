@@ -189,30 +189,30 @@ class Component extends React.PureComponent {
           ref={ref => (this.element = ref)}
           {...etc}
         >
+          <Link href='https://kook.rbwcn.cn' {...linkProps}>
+            <Text
+              animation={{ animate: animateText }}
+              audio={{ silent: !animateText }}
+            >
+              立即开玩
+            </Text>
+          </Link>
+          <b className={cx(classes.item, classes.divisor)}>|</b>
           <Link href='/news' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
             >
-              News
+              新闻
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='/music' {...linkProps}>
+          <Link href='/rules' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
             >
-              Music
-            </Text>
-          </Link>
-          <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='/charity' {...linkProps}>
-            <Text
-              animation={{ animate: animateText }}
-              audio={{ silent: !animateText }}
-            >
-              Charity
+              赛季规则
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
@@ -221,7 +221,7 @@ class Component extends React.PureComponent {
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
             >
-              About
+              关于我们
             </Text>
           </Link>
         </nav>

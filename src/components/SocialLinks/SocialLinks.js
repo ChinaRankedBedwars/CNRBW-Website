@@ -105,7 +105,7 @@ class Component extends React.PureComponent {
         ref={ref => (this.element = ref)}
         {...etc}
       >
-        <A href='https://www.youtube.com/channel/UCS8LdV8eOeK6XnMMkRP3pXA' title='YouTube' target='youtube'>
+        {/* <A href='https://www.youtube.com/channel/UCS8LdV8eOeK6XnMMkRP3pXA' title='YouTube' target='youtube'>
           <span className='mdi mdi-youtube' />
         </A>
         <A href='https://open.spotify.com/artist/1cEPAqNFhmARDe0HgKOD3h' title='Spotify' target='spotify'>
@@ -125,7 +125,7 @@ class Component extends React.PureComponent {
         </A>
         <A href='mailto:soulextractmusic@gmail.com' title='Email' target='email'>
           <span className='mdi mdi-email-outline' />
-        </A>
+        </A> */}
       </div>
     );
   }

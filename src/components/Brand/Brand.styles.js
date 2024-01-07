@@ -20,12 +20,14 @@ const styles = theme => ({
     visibility: 'hidden'
   },
   svg: {
+    position: 'relative',
     display: 'block',
-    margin: 0,
     border: 'none',
+    margin: 0,
     padding: 0,
-    opacity: 0,
-    filter: `drop-shadow(0 0 1.5px ${theme.color.secondary.main})`
+    boxShadow: 'none',
+    textShadow: 'none',
+    textAlign: 'center'
   },
   path: {
     fill: 'none',
