@@ -27,29 +27,29 @@ class News extends React.Component {
           <header>
             <h1><Text>赛季规则</Text></h1>
           </header>
-          <h1>测试赛季S1赛季规则</h1>
-          <p>允许使用的道具：
+          <h1><Text>测试赛季S1赛季规则</Text></h1>
+          <p><Text>允许使用的道具：</Text>
           </p><p>
-            🟩 梯子<br></br>
-            🟩 仅蓝队侧岛<br></br>
-            🟩 钻甲钻剑<br></br>
-            🟩 水桶(仅在自己基地使用)<br></br>
-            🟩 TNT<br></br>
+            <Text>🟩 梯子</Text><br></br>
+            <Text>🟩 仅蓝队侧岛</Text><br></br>
+            <Text>🟩 钻甲钻剑</Text><br></br>
+            <Text>🟩 水桶(仅在自己基地使用)</Text><br></br>
+            <Text>🟩 TNT</Text><br></br>
           </p><p>
-            床爆后允许使用的道具:<br></br>
-            🟨 隐身药水<br></br>
-            🟨 跳跃药水，速度药水<br></br>
-            🟨 搭桥蛋<br></br>
-            🟨 黄队基地(床爆后所有图side都允许)<br></br>
-            🟨 珍珠<br></br>
+            <Text>床爆后允许使用的道具:</Text><br></br>
+            <Text>🟨 隐身药水</Text><br></br>
+            <Text>🟨 跳跃药水，速度药水</Text><br></br>
+            <Text>🟨 搭桥蛋</Text><br></br>
+            <Text>🟨 黄队基地(床爆后所有图side都允许)</Text><br></br>
+            <Text>🟨 珍珠</Text><br></br>
           </p><p>
-            不允许使用的道具:<br></br>
-            🟥 禁止使用火球炸毁敌方钻石岛钻石<br></br>
-            🟥 击退棒<br></br>
-            🟥 弓（任何弓）<br></br>
-            🟥 黑曜石<br></br>
-            🟥 防御塔(速建塔)<br></br>
-            🟥 每周轮换道具</p>
+            <Text>不允许使用的道具:</Text><br></br>
+            <Text>🟥 禁止使用火球炸毁敌方钻石岛钻石</Text><br></br>
+            <Text>🟥 击退棒</Text><br></br>
+            <Text>🟥 弓（任何弓）</Text><br></br>
+            <Text>🟥 黑曜石</Text><br></br>
+            <Text>🟥 防御塔(速建塔)</Text><br></br>
+            <Text>🟥 每周轮换道具</Text></p>
         </Secuence>
       </Main>
     );

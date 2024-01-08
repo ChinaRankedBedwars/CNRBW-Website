@@ -18,7 +18,7 @@ class About extends React.Component {
     classes: PropTypes.object
   };
 
-  render () {
+  render() {
     const { classes } = this.props;
 
     return (
@@ -26,10 +26,18 @@ class About extends React.Component {
         <article>
           <Secuence stagger>
             <header>
-              <h1><Text>制作团队</Text></h1>
+              <h1><Text>关于我们</Text></h1>
             </header>
-            <p><Text>有空再写</Text></p>
-          
+            <h2><Text>制作团队</Text></h2>
+            <h3><Text>IAFEnvoy</Text></h3>
+            <p><Text>社区机器人维护，主系统设计，个人网站：iafenvoy.net</Text></p>
+            <p><Text>StarburstGalaxies公会会长，公会官网：starburst.team</Text></p>
+            <h3><Text>Juzi_CN</Text></h3>
+            <p><Text>域名和服务器提供，富哥一枚，个人网站：jz-i.com</Text></p>
+            <p><Text>JuziClub公会会长，公会官网：juziclub.net</Text></p>
+            <h3><Text>泪殇(IGN：BhopL)</Text></h3>
+            <p><Text>社区总管理，社区频道主要创建者，社区头像logo、封面设计者</Text></p>
+            <p><Text>QUITED RANKED BEDWARS</Text></p>
           </Secuence>
         </article>
       </Main>
