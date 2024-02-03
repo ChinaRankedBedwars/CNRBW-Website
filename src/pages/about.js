@@ -30,10 +30,10 @@ class About extends React.Component {
             </header>
             <h2><Text>制作团队</Text></h2>
             <h3><Text>IAFEnvoy</Text></h3>
-            <p><Text>社区机器人维护，主系统设计，个人网站：iafenvoy.net</Text></p>
-            <p><Text>StarburstGalaxies公会会长，公会官网：starburst.team</Text></p>
-            <h3><Text>辞愿 (IGN: IQ_Boost | Alt: SideInc)</Text></h3>
-            <p><Text>社区机器人维护 & 社区管理，<a href = "https://awa.gold">个人网站</a></Text></p>
+            <p><Text>社区机器人维护，主系统设计，<a href="https://iafenvoy.net" target="_blank">个人网站</a></Text></p>
+            <p><Text>Ficer工作室室长，<a href="https://ficer.net" target="_blank">工作室网站</a></Text></p>
+            <h3><Text>辞愿 IGN: IQ_Boost | Alt: SideInc</Text></h3>
+            <p><Text>社区机器人维护 & 社区管理，<a href="https://awa.gold" target="_blank">个人网站</a></Text></p>
             <p><Text>半Quit RBW，会经常玩游戏也经常搞开发</Text></p>
             <h3><Text>Juzi_CN</Text></h3>
             <p><Text>域名和服务器提供，富哥一枚，个人网站：jz-i.com&jc.baby</Text></p>
